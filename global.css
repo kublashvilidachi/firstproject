@@ -21,6 +21,7 @@ body{
     align-items: center;
     cursor: pointer;
     font-size: medium;
+    font-family: 'Inter', sans-serif;
     background-color: none;
 }
 
@@ -32,6 +33,7 @@ body{
     align-items: center;
     cursor: pointer;
     font-size: medium;
+    font-family: 'Inter', sans-serif;
     background-color: none;
 }
 
@@ -43,6 +45,7 @@ body{
     align-items: center;
     cursor: pointer;
     font-size: medium;
+    font-family: 'Inter', sans-serif;
     background-color: none;
 }
 
@@ -54,6 +57,7 @@ body{
     align-items: center;
     cursor: pointer;
     font-size: medium;
+    font-family: 'Inter', sans-serif;
     background-color: none;
 }
 
@@ -81,4 +85,10 @@ body{
     justify-content: left;
     width: 50%;
     padding: 40px 123px;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
 }

@@ -89,4 +89,4 @@ let intervalId = setInterval(right, 4000);
 document.addEventListener('click', function() {
   clearInterval(intervalId);
   intervalId = setInterval(right, 4000);
-});
+})
