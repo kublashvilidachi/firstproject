@@ -90,28 +90,27 @@
 .ellipses{
     display: flex;
     justify-content: center;
-    padding: 580px 0px 0px 0px;
-    width: fit-content;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    bottom: -92%;
+    height: 19px;
+    border-radius: 11px;
+    background: rgba(0, 0, 0, 0.21);
 }
 #ellipse1{
     padding: 0px 5px 0px 5px;
-    background: rgba(0, 0, 0, 0.21);
 }
 #ellipse2{
     padding: 0px 5px 0px 5px;
-    background: rgba(0, 0, 0, 0.21);
 }
 #ellipse3{
     padding: 0px 5px 0px 5px;
-    background: rgba(0, 0, 0, 0.21);
 }
 #ellipse4{
     padding: 0px 5px 0px 5px;
-    background: rgba(0, 0, 0, 0.21);
 }
 #ellipse5{
     padding: 0px 5px 0px 5px;
-    background: rgba(0, 0, 0, 0.21);
 }
 
 .My-btn1{
