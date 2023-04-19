@@ -179,11 +179,27 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
     line-height: 20px;
-
     letter-spacing: -0.204545px;
-
     color: #1E2833;
+}
 
+.button1:hover{
+    font-size: larger;
+    border-bottom: solid white 2px;
+    
+    padding-left:  25px;
+    padding-right:  25px;
+}
+.button2:hover{
+    font-size: larger;
+    border-bottom: solid white 2px;
+}
+.button3:hover{
+    font-size: larger;
+    border-bottom: solid white 2px;
+}
+.button4:hover{
+    font-size: larger;
+    border-bottom: solid white 2px;
 }

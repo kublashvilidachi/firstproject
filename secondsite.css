@@ -1,7 +1,87 @@
-
 .style-inter{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
+}
+.photo{    
+    position: relative;
+    left: 43%;
+    bottom: 343px;
+}
+@media only screen and (max-width: 1500px) {
+    .photo{
+        width: 648px;    
+        left: 41%;
+        bottom: 280px;
+    }
+  }
+.extraitor{
+    padding: 0px 10%;
+    margin: 0px;
+}
+.rectangle{
+    margin: 25px 0px 0px 0px;
+    width: 110px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1500px) {
+    .rectangle{
+        width: 90px;
+    }
+  }
+.footer{
+    height: 140px;
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.summary{
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px 30px;
+    cursor: pointer;
+    margin: 0px 22% 0px 0px;
+}
+.A2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+.A1{
+    display: flex;
+    justify-content: center;
+    width: 50%; 
+    flex-direction: column;
+}
+.uppertext{
+    font-size: 20px;
+    padding-left: 151px;
+    padding-bottom: 6px;
+}
+.downtext{
+    font-size: 16px;
+    padding-left: 151px;
+    padding-top: 6px;
+}
+
+.button1:hover{
+    font-size: larger;
+    border-bottom: solid rgb(255 206 114) 2px;
+    
+    padding-left:  25px;
+    padding-right:  25px;
+}
+.button2:hover{
+    font-size: larger;
+    border-bottom: solid rgb(255 206 114) 2px;
+}
+.button3:hover{
+    font-size: larger;
+    border-bottom: solid rgb(255 206 114) 2px;
+}
+.button4:hover{
+    font-size: larger;
+    border-bottom: solid rgb(255 206 114) 2px;
 }
