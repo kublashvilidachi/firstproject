@@ -83,3 +83,6 @@ body{
     letter-spacing: -0.204545px;
     color: #1E2833;
 }
+.pointer{
+    cursor: pointer;
+}
