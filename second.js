@@ -1,5 +1,7 @@
 let currentCar = 1
 let car = document.querySelector("#cars")
+let seats = document.querySelector("#seats")
+let agwera = document.querySelector("#agwera")
 function changeCar1(){
     car.src = "images/audi1.jpg"
 }
@@ -26,4 +28,25 @@ function changeCar8(){
 }
 function changeCar9(){
     car.src = "images/audi9.png"
+}
+
+function changeSeats1(){
+    seats.src = "images/seats1.png"
+    agwera.innerHTML = "Interior trim colors - seats: Arras Red-Arras Red-Crescendo Red, dashboard: Black-Black, carpet: Black, headliner: Black"
+}
+function changeSeats2(){
+    seats.src = "images/seats2.png"
+    agwera.innerHTML = "Interior trim colors - seats: Black-Black-Express Red, dashboard: Black-Black, carpet:  Black, headliner: Black"
+}
+function changeSeats3(){
+    seats.src = "images/seats3.png"
+    agwera.innerHTML = "Interior trim colors - seats: Black-Black-Steel Grey, dashboard:  Black-Black, carpet: Blac k, headliner: Black"
+}
+function changeSeats4(){
+    seats.src = "images/seat4.png"
+    agwera.innerHTML = "Interior trim colors - seats: Monaco Grey-Monaco Grey-Steel Grey, dashboard:  Blac k-Merino Grey, carpet: Black, headliner: Black"
+}
+function changeSeats5(){
+    seats.src = "images/seats5.png"
+    agwera.innerHTML = "Interior trim colors - seats: Santos Brown-Santos Brown, dashboard:  Black-Santos Brown, carpet: Black, headliner: Black"
 }
