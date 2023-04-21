@@ -176,3 +176,20 @@ function changePhoto5(){
     S4.setAttribute("width","10")
     S5.setAttribute("width","15")
 }
+const scrollBtn = document.querySelector("#scrollBtn");
+
+window.addEventListener('scroll', function() {
+  if (document.documentElement.scrollTop > 0) {
+    scrollBtn.style.display = 'block';
+  } else {
+    scrollBtn.style.display = 'none';
+  }
+});
+
+function scrollToTop() {
+  let currentPosition = document.documentElement.scrollTop;
+  if (currentPosition > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, currentPosition - currentPosition / 8);
+  }
+}
