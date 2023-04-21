@@ -86,3 +86,23 @@ body{
 .pointer{
     cursor: pointer;
 }
+.scroll-btn{
+    display: none;
+    z-index: 9999;
+    padding: 15px;
+    border: gray 6px solid;
+    border-radius: 50%;
+    position: fixed;
+    top: 78%;
+    left: 90%;
+    cursor: pointer;
+}
+.scroll-btn:hover{
+    animation: myanim 0.5s infinite;
+}
+
+@keyframes myanim {
+    0% { top: 78%; }
+    50% { top: 76%; }
+    100% { top: 78%; }
+}   

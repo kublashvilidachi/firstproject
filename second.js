@@ -50,3 +50,24 @@ function changeSeats5(){
     seats.src = "images/seats5.png"
     agwera.innerHTML = "Interior trim colors - seats: Santos Brown-Santos Brown, dashboard:  Black-Santos Brown, carpet: Black, headliner: Black"
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const scrollBtn = document.getElementById("scrollBtn");
+
+window.addEventListener("scroll", function () {
+if (document.documentElement.scrollTop > 500) {
+    scrollBtn.style.display = "block";
+} else {
+    scrollBtn.style.display = "none";
+}
+});
+})
+
+function scrollToTop() {
+const currentPosition = document.documentElement.scrollTop;
+
+if (currentPosition > 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, currentPosition - currentPosition / 8);
+}
+}
