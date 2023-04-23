@@ -10,13 +10,14 @@
             <div style="display: flex; justify-content: center; width: 100%;">
                 <h2 class="Mytext" onclick="click()" placeholder="username"><a href="index.html"><img  src="images/arrow.png" width="30px" class="arrow"></a>LOGIN TO YOUR ACCOUNT</h2>
             </div>
-            <h3 class="Mytext">username:</h3>
+            <h3 class="Mytext" id="name"><b>user</b></h3>
             <input type="text" id="username" name="username" class="input Mytext">
-            <br><br>
-            <h3 class="Mytext">password:</h3>
+            <br>
+            <h3 class="Mytext" id="pass"><b>password</b></h3>
             <input type="password" id="password" name="password" class="input Mytext">
             <button type="submit" class="submit" onclick="eror()" >LOGIN</button>
             <div style="display: flex;" class="Mytext"><div>no accaunt? </div><a href="register.html">register</a></div>
+            <br>
             <div id="error" class="Mytext">username or password is incorrect</div>
             </div>
         <script src="login.js"></script>

@@ -16,23 +16,43 @@ html{
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 0px 0px 8px;
+    transition: 0.3s;
+}
+.main:hover{
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 10px;
 }
 .input{
-    height: 20px;
+    height: 25px;
     background-color: #e7e2e2;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     border-color: gray;
     width: 70%;
-    font-size: 20px;
+    font-size: 15px;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+#name{
+    background-color: #e7e2e2;
+    position: relative;
+    top: 25px;
+    right: 72px;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: black;
+}
+#pass{
+    background-color: #e7e2e2;
+    position: relative;
+    top: 25px;
+    right: 72px;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: black;
 }
 .input:focus{
-    height: 20px;
+    height: 25px;
     background-color: #e7e2e2;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     outline: none;
     border-color: gray;
     width: 70%;
