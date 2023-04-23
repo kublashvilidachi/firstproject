@@ -105,4 +105,44 @@ body{
     0% { top: 78%; }
     50% { top: 76%; }
     100% { top: 78%; }
-}   
+}
+#languages{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 50px;
+    right: 60px;
+    width: 100px;
+}
+#geo{
+    border: 1px solid black;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: black;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-image: url("images/geflag.png");
+    background-position: center;
+    background-size: 110%;
+    background-color: #efefef;
+}
+#geo:hover{
+    text-decoration: underline;
+    color: royalblue;
+}
+#eng{   
+    border: 1px solid black;
+    padding: 20px 20px;
+    cursor: pointer;
+    color: black;
+    border-radius: 50%; 
+    margin-left: 5px;
+    background-color: #efefef;
+    background-image: url("images/ukflag.png");
+    background-position: center;
+    background-size: 135%;
+}
+#eng:hover{
+    text-decoration: underline; 
+    color: royalblue;
+}
