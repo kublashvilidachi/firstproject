@@ -69,3 +69,13 @@ function inglisuri2(){
     link.innerHTML = '<div>Already have an account?</div><a href="login.html">login</a>'
     erori.innerHTML = "An error has been detected. Please try again later"
 }
+
+let btn = document.querySelector("#loginbtn")
+function animacia(){
+    btn.style.margin = "40px 0px 10px 5px"
+    btn.style.boxShadow = "none"
+}
+function animacia2(){
+    btn.style.margin = "35px 0px 10px 0px"
+    btn.style.boxShadow = " 4px 4px #1264ce"
+}
