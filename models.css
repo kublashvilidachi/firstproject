@@ -87,3 +87,23 @@
     flex: 5;
     background-size: 500px;
   }
+  
+  .button1:hover{
+      font-size: larger;
+      border-bottom: solid rgb(255 206 114) 2px;
+      
+      padding-left:  25px;
+      padding-right:  25px;
+  }
+  .button2:hover{
+      font-size: larger;
+      border-bottom: solid rgb(255 206 114) 2px;
+  }
+  .button3:hover{
+      font-size: larger;
+      border-bottom: solid rgb(255 206 114) 2px;
+  }
+  .button4:hover{
+      font-size: larger;
+      border-bottom: solid rgb(255 206 114) 2px;
+  }
