@@ -1,0 +1,89 @@
+#top{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+#top:hover{
+    background-color: #4b4b4b;
+}
+#bottom{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+#bottom:hover{
+    background-color: darkgray;
+}
+.uperbtns{
+    border: solid 1px black;
+    width: 250px;
+    height: 70px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#image{
+    background-image: url("images/poto-1color-1.png");
+    transition: background-image 0.3s ease-in-out;
+}
+.imageclass{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#gadamrtavi{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 12%;
+    top: 90%;
+    left: 70%;
+    background: white;
+    padding: 20px;
+}
+.arrow{
+    font-size: 40px;
+    cursor: pointer;
+}
+.arrow:hover{
+    font-weight: bolder;
+}
+#change{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+    font-size: 2rem;
+}
+#changecolor{
+    height: 500px;
+    overflow: auto;
+    display: none;
+}
+.archevani{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.coodfun-galeri {
+    display: flex;
+    height: 200px;
+    gap: 1rem;
+    width: 80%;
+  }
+  
+  .coodfun-galeri > div {
+    flex: 2;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+  }
+  
+  .coodfun-galeri > div:hover {
+    flex: 5;
+    background-size: 500px;
+  }
