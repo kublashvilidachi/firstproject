@@ -262,7 +262,7 @@ function left(){
         num = "3"
         return
     }
-    if(num == "4"){
+    if(num == "5"){
         img.style.background = "url('" + image4 + "')"
         img.style.backgroundRepeat = 'no-repeat'
         img.style.backgroundPosition = 'center'
